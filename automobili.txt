@@ -1,0 +1,24 @@
+﻿tabella : auto usate 
+
+id: primary key | auto_increment | unique | not_null
+targa: varchart (10) | Unique
+marca: varchart(20) | not_null
+modello: varchart(15)
+porte: tinyint
+colore: varchart(15)
+anno: date
+km: smallint
+proprietari: tinyint
+cilindrata (kw) : smallint
+cambio: varchart(15)
+alimentazione : varchart(15)
+antifurto: tinyint | default(0)
+descrizione vettura: text
+prezzo: smallint | not_null
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+﻿tabella : giocatori
+
+id: primary_key | auto_increment | unique |not_null
+numero cartellino: varchart(15) | Not null | unique
+nome: varchar(15) | not_null
+cognome: varchar (15) | not_null
+data di nascita: date
+nazionalità: varchar(20)
+altezza in cm: smallint
+peso in kg : Smallint
+ruolo: varchar(15)
+numero di maglia: tinyint | unique 
+partite disputate: smallint
+media punti partita: float (3,2)
+% realizzazione tiri da 3 : tinyint
+% falli : tinyint
+% rimbalzi : tinyint
+disponibile per la prossima partita: tinyint | default (0)
+
+
+
+
+
